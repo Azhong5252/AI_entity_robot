@@ -1,9 +1,9 @@
 #Anaconda 環境
-到https://www.anaconda.com/下載Anaconda for Windows
+到https://www.anaconda.com/ 下載Anaconda for Windows
 勾選設置系統環境變數
 
 #VsCode
-到https://code.visualstudio.com/下載VSCode for windows
+到https://code.visualstudio.com/ 下載VSCode for windows
 
 #專案克隆
 git clone https://github.com/Robot/Robot_Generate_AI
@@ -17,13 +17,13 @@ conda activate Robot_Generate_AI
 
 
 #GPT 環境建設
-到https://openai.com/申請API KEY 
+到https://openai.com/ 申請API KEY 
 pip install openai
 
 
 #VITS-fast-fine-tuing環境建設
 0.
-　到https://visualstudio.microsoft.com/zh-hant/downloads/下載Visual Studio 2022並勾選CMake & C/C++compilers
+　到https://visualstudio.microsoft.com/zh-hant/downloads/ 下載Visual Studio 2022並勾選CMake & C/C++ compilers
 1.下載套件
   cd VITS-fast-fine-tuing
   pip install -r requirements.txt
@@ -98,7 +98,11 @@ pip install openai
 
 #GPT-SoVITS環境建設
 cd /GPT-SoVITS
-pip install -r requirements.txt
+conda create -n GPT-SoVITS python=3.9
+conda activate GPT-SoVITS
+conda install ffmpeg Cmake 
+conda install pytorch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements
 
 
 #手動安裝
@@ -113,8 +117,8 @@ pip install -r requirements.txt
 	Download and place ffmpeg.exe and ffprobe.exe in the GPT-SoVITS root.
 
 2.Install Pytorch
-	pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116(VITS-fast-fine-tuning)
-	pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121(GPT-SoVITS)
+	pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116 (VITS-fast-fine-tuning)
+	pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 (GPT-SoVITS)
 
 3.
 

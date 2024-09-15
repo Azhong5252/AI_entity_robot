@@ -4,7 +4,7 @@
 第一步執行Create_folder.bat
 #然後把下載的所有檔案丟到生成後的最後一個資料夾(ALL_action)裡
 
-第二步開啟vscode開啟剛剛生成的資料夾ALL_action然後在terminal打上cmd
+第二步執行vscode.bat然後在terminal(ctrl + j)打上cmd
 
 第三步執行create_env.bat(創建虛擬環境)
 

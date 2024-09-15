@@ -6,11 +6,11 @@
   
 第二步開啟vscode開啟剛剛生成的資料夾ALL_action然後在terminal打上cmd  
   
-第三步執行create_env.bat
+第三步執行create_env.bat(創建虛擬環境)
   
-第四部執行activate.bat  
+第四部執行activate.bat(進到虛擬環境)  
 #要離開虛擬環境可以執行deactivate.bat   
   
-第五步執行python_ext.bat
+第五步執行python_ext.bat(執行main.py)
 #
 溫馨提示!當在terminal要執行.bat可以用tab，例如要執行create_env.bat，可以打個c然後按tab找到那個.bat檔

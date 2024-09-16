@@ -1,10 +1,12 @@
 # AI_entity_robot
 根據生成式AI生成實體機器人所需的動作，並且可以利用聲音複製的與我們對話。
 #
-第一步執行Create_folder.bat
-#然後把下載的所有檔案丟到生成後的最後一個資料夾(ALL_action)裡
-
-第二步執行vscode.bat然後在terminal(ctrl + j)打上cmd
+把檔案download下來後，根據夏墅條件把需要的資料補齊
+1.把訓練好的G_latest.pth跟finetune_speaker.jsonVITS-fast-fine-tuning-webui-v1.1
+2.打開Chatgpt.py把自己的apikey加進去
+#
+第一步執行vscode.bat
+#執行完後在terminal(ctrl + j)打上cmd
 
 第三步執行create_env.bat(創建虛擬環境)
 

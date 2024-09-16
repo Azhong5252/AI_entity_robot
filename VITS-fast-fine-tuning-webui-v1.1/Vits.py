@@ -49,7 +49,7 @@ def vits(gpt_msg):
         return tts_fn
 
     def tts_result(gpt_msg, char_dropdown_value, language_dropdown_value, duration_slider_value):
-        output_folder = "C:/Users/user/Desktop/2024Graduate_Topie/Project_data/ALL_action/VITS-fast-fine-tuning-webui-v1.1/Audio/"
+        output_folder = os.getcwd() + "\\Audio\\"
         output_path = "" 
         tts_result, audio_data = tts_fn(gpt_msg, char_dropdown_value, language_dropdown_value, duration_slider_value)
         # print("Ayaka:", tts_result)

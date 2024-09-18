@@ -36,9 +36,9 @@
 輸入指令nvidia-smi查詢自己的cuda，例如CUDA Version: 12.4，那麼可以執行以下指令
 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
+#
 
 第四步執行python_ext.bat(執行main.py)
 
-那麼就可以使用GPU訓練。
 #
 溫馨提示!當在terminal要執行.bat可以用tab，例如要執行create_env.bat，可以打個c然後按tab找到那個.bat檔

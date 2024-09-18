@@ -25,17 +25,20 @@
 第一步執行vscode.bat
 #執行完後在terminal(ctrl + j)打上cmd
 
-第三步執行create_env.bat(創建虛擬環境)
+第二步執行create_env.bat(創建虛擬環境)
 
-第四部執行activate.bat(進到虛擬環境)
+第三步執行activate.bat(進到虛擬環境)
 #要離開虛擬環境可以執行deactivate.bat
 
-第五步執行python_ext.bat(執行main.py)
 #
-溫馨提示!當在terminal要執行.bat可以用tab，例如要執行create_env.bat，可以打個c然後按tab找到那個.bat檔
-#
-如果有GPU，可以進到conda環境後，輸入指令nvidia-smi查詢自己的cuda，例如CUDA Version: 12.4，那麼可以執行以下指令
+安裝torch
+
+輸入指令nvidia-smi查詢自己的cuda，例如CUDA Version: 12.4，那麼可以執行以下指令
 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
 
+第四步執行python_ext.bat(執行main.py)
+
 那麼就可以使用GPU訓練。
+#
+溫馨提示!當在terminal要執行.bat可以用tab，例如要執行create_env.bat，可以打個c然後按tab找到那個.bat檔

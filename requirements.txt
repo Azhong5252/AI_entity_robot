@@ -2,7 +2,6 @@ openai
 paho-mqtt==1.6.1
 playsound==1.2.2
 Cython
-torch
 numpy
 scipy
 soundfile

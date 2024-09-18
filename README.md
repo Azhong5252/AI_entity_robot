@@ -1,12 +1,24 @@
 # AI_entity_robot
 根據生成式AI生成實體機器人所需的動作，並且可以利用聲音複製的與我們對話。
 #
-把檔案download下來後，根據以下條件把需要的資料補齊
+選擇檔案dowload下來後，從兩種語音克隆選擇一種，然後根據條件把需要的資料補齊
+1.VITS-fast-fine-tuning
 
-1.把訓練好的G_latest.pth跟finetune_speaker.json放入AI_entity_robot\VITS-fast-fine-tuning-webui-v1.1裡
-
-2.打開Chatgpt.py把自己的apikey加進去
+2.GPT-SoVITS
 #
+1.VITS-fast-fine-tuning語音克隆
+
+把訓練好的G_latest.pth跟finetune_speaker.json放入AI_entity_robot\VITS-fast-fine-tuning-webui-v1.1裡
+
+打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
+#
+2.GPT-SoVITS
+
+把訓練好的G_latest.pth跟finetune_speaker.json放入AI_entity_robot\VITS-fast-fine-tuning-webui-v1.1裡
+
+打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
+#
+
 第一步執行vscode.bat
 #執行完後在terminal(ctrl + j)打上cmd
 

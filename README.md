@@ -10,14 +10,17 @@
 
 把訓練好的G_latest.pth跟finetune_speaker.json放入AI_entity_robot\VITS-fast-fine-tuning-webui-v1.1裡
 
-打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
+最後打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
 #
 2.GPT-SoVITS
 
-把訓練好的G_latest.pth跟finetune_speaker.json放入AI_entity_robot\VITS-fast-fine-tuning-webui-v1.1裡
+把Download下來的pretrained_models資料夾放入AI_entity_robot\GPT-SoVITS-main資料夾裡
 
-打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
+然後在AI_entity_robot\GPT-SoVITS-main資料夾裡找到pre_Audio_path.txt打開輸入要克隆的聲音檔的的路徑例如C:\Users\user\Desktop\Audio
+
+最後打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
 #
+開始功能
 
 第一步執行vscode.bat
 #執行完後在terminal(ctrl + j)打上cmd

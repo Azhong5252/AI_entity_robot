@@ -1,7 +1,6 @@
 from playsound import playsound
 import os
 import sys
-
 # ====================================================================================================================
 import Chatgpt #Chatgpt.py函式引入
 import Mqtt_receive_message #Mqtt_receive_message.py函式引入

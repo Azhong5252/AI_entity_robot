@@ -1,8 +1,10 @@
 # AI_entity_robot
 根據生成式AI生成實體機器人所需的動作，並且可以利用聲音複製的與我們對話。
 #
-把檔案download下來後，根據夏墅條件把需要的資料補齊
-1.把訓練好的G_latest.pth跟finetune_speaker.jsonVITS-fast-fine-tuning-webui-v1.1
+把檔案download下來後，根據以下條件把需要的資料補齊
+
+1.把訓練好的G_latest.pth跟finetune_speaker.json放入AI_entity_robot\VITS-fast-fine-tuning-webui-v1.1裡
+
 2.打開Chatgpt.py把自己的apikey加進去
 #
 第一步執行vscode.bat

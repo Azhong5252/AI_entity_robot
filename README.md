@@ -25,11 +25,11 @@
 第0步請安裝
 1.Anaconda https://www.anaconda.com/download
 
-第一步執行 0啟動Vscode.bat
+第一步點擊0啟動.bat執行
 
-#執行完後在terminal(ctrl + j)打上cmd
+#除了第一步在資料夾點擊之外其餘都是在開啟的終端機執行
 
-第二步執行 1創建虛擬環境.bat(創建虛擬環境)
+第二步在執行 1創建虛擬環境.bat(創建虛擬環境)
 
 第三步執行 2自動下載且解壓模型.bat(會自動下載pretrained_models.zip和models.zip且會自動解壓縮，需要較久時間下載和解壓縮)
 

@@ -38,6 +38,8 @@
 #
 安裝torch
 
+#如果有外顯卡但是沒有cuda要先裝cuda，https://developer.nvidia.com/cuda-downloads
+
 pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 #
 

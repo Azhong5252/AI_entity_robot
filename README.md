@@ -24,7 +24,7 @@
 開始功能
 第0步請安裝
 
-1.VsCode https://code.visualstudio.com/download和
+1.VsCode https://code.visualstudio.com/download
 
 2.Anaconda https://www.anaconda.com/download
 

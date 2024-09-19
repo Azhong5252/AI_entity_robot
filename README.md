@@ -22,8 +22,11 @@
 最後打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
 #
 開始功能
+
 第0步請安裝
 1.Anaconda https://www.anaconda.com/download
+
+2.如果有外顯卡但是沒有cuda要先裝cuda https://developer.nvidia.com/cuda-downloads
 
 第一步點擊0啟動.bat執行
 
@@ -41,13 +44,6 @@
 
 #要刪除這個虛擬環境的話 999刪除虛擬環境.bat
 #
-安裝torch
-
-#如果有外顯卡但是沒有cuda要先裝cuda https://developer.nvidia.com/cuda-downloads
-
-pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
-#
-
 第四步執行 4啟動主程式.bat(執行main.py)
 
 #

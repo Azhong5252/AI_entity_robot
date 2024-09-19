@@ -27,8 +27,10 @@
 
 第二步執行create_env.bat(創建虛擬環境)
 
-第三步執行activate.bat(進到虛擬環境)
+第三步執行activate_new.bat(進到虛擬環境，第一次創建這個虛擬環境)
+#非第一次創建這個虛擬環境要直接進入的話activate_in.bat
 #要離開虛擬環境可以執行deactivate.bat
+
 
 #
 安裝torch

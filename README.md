@@ -1,7 +1,7 @@
 # AI_entity_robot
 根據生成式AI生成實體機器人所需的動作，並且可以利用聲音複製的與我們對話。
 #
-選擇檔案dowload下來後，從兩種語音克隆選擇一種，然後根據條件把需要的資料補齊
+檔案dowload下來後，從兩種語音克隆選擇一種，然後根據條件把需要的資料補齊
 1.VITS-fast-fine-tuning
 
 2.GPT-SoVITS

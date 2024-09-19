@@ -33,9 +33,7 @@
 #
 安裝torch
 
-輸入指令nvidia-smi查詢自己的cuda，例如CUDA Version: 12.4，那麼可以執行以下指令
-
-pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0
 #
 
 第四步執行python_ext.bat(執行main.py)

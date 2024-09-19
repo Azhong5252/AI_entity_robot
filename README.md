@@ -38,7 +38,7 @@
 #
 安裝torch
 
-pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 #
 
 第四步執行python_ext.bat(執行main.py)

@@ -23,10 +23,7 @@
 #
 開始功能
 第0步請安裝
-
-1.VsCode https://code.visualstudio.com/download
-
-2.Anaconda https://www.anaconda.com/download
+1.Anaconda https://www.anaconda.com/download
 
 第一步執行 0啟動Vscode.bat
 

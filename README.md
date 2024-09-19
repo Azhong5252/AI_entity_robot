@@ -21,6 +21,7 @@
 最後打開Chatgpt.py把自己的apikey加進去client = OpenAI(api_key = "")
 #
 開始功能
+第0步請安裝VsCode和Anaconda
 
 第一步執行vscode.bat
 

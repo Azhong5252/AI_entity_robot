@@ -34,7 +34,7 @@
 
 第二步執行 1創建虛擬環境.bat(創建虛擬環境)
 
-第三步執行 2自動解壓模型.bat(把Download的pretrained_models.zip和models.zip自動解壓縮)
+第三步執行 2自動下載且解壓模型.bat(會自動下載pretrained_models.zip和models.zip且會自動解壓縮，需要較久時間下載和解壓縮)
 
 第四步執行 3啟動虛擬環境(未安裝套件).bat(第一次創建這個虛擬環境，進到虛擬環境)
 

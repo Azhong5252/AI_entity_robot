@@ -24,6 +24,7 @@
 開始功能
 
 第0步請安裝
+
 1.Anaconda https://www.anaconda.com/download
 
 2.如果有外顯卡但是沒有cuda要先裝cuda https://developer.nvidia.com/cuda-downloads

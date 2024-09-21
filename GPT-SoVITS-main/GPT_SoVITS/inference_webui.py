@@ -302,6 +302,30 @@ def sovits(gpt_text):
             else:
                 result[len(result) - 1] += text
         return result
+    def Get_GPT_dropdown():#獲取GPT_weight訓練的模型權重的位置
+        folder_path = os.getcwd() + "\\GPT_weights\\"
+        files = os.listdir(folder_path)
+        ckpt_files = [f for f in files if f.endswith('.ckpt')]
+        if ckpt_files:
+            GPT_dropdown = folder_path + "\\" + ckpt_files[-1]
+        print(GPT_dropdown)
+        return GPT_dropdown
+    def Get_SoVITS_dropdown(): #獲取SoVITS_weight訓練的模型的位置
+        folder_path = os.getcwd() + "\\SoVITS_weights"
+        files = os.listdir(folder_path)
+        pth_files = [f for f in files if f.endswith('.pth')]
+        if pth_files:
+            SoVITS_dropdown = folder_path + "\\" + pth_files[-1]
+        print(SoVITS_dropdown)
+        return SoVITS_dropdown
+    def Audio_path(): #獲取output\slicer_opt\最上面的音黨名稱
+        folder_path = os.getcwd() + "\\output\\slicer_opt"
+        files = os.listdir(folder_path)
+        audio_files = [f for f in files if f.endswith(('.mp3', '.wav', '.flac', '.aac'))]
+        if audio_files:
+            inp_ref = folder_path + "\\" + audio_files[0]
+        print(inp_ref)
+        return inp_ref
     def get_tts_wav(GPT_dropdown,SoVITS_dropdown,ref_wav_path, prompt_text, prompt_language, text, text_language, how_to_cut="不切", top_k=20, top_p=0.6, temperature=0.6, ref_free=False):
         nonlocal audio_output_path
         if prompt_text is None or len(prompt_text) == 0:
@@ -528,10 +552,9 @@ def sovits(gpt_text):
     GPT_weight_root = "GPT_weights"
     os.makedirs(SoVITS_weight_root, exist_ok=True)
     os.makedirs(GPT_weight_root, exist_ok=True)
-    GPT_dropdown = "GPT_weights\\Ayaka-e15.ckpt"
-    SoVITS_dropdown = "SoVITS_weights\\Ayaka_e4_s176.pth"
-    print(os.getcwd())
-    inp_ref = "C:\\Users\\user\\Desktop\\AI_entity_robot\\GPT-SoVITS-main\\output\\slicer_opt\\audio_1.mp3_0000000000_0000156480.wav"
+    GPT_dropdown = Get_GPT_dropdown()
+    SoVITS_dropdown = Get_SoVITS_dropdown()
+    inp_ref = Audio_path()
     prompt_text = "到妻神理流，太刀术，接传神理灵华参少。"
     prompt_language = "中文"
     text = gpt_text

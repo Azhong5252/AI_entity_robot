@@ -528,8 +528,9 @@ def sovits(gpt_text):
     GPT_weight_root = "GPT_weights"
     os.makedirs(SoVITS_weight_root, exist_ok=True)
     os.makedirs(GPT_weight_root, exist_ok=True)
-    GPT_dropdown = "GPT_weights/Ayaka-e15.ckpt"
-    SoVITS_dropdown = "SoVITS_weights/Ayaka_e4_s176.pth"
+    GPT_dropdown = "GPT_weights\\Ayaka-e15.ckpt"
+    SoVITS_dropdown = "SoVITS_weights\\Ayaka_e4_s176.pth"
+    print(os.getcwd())
     inp_ref = "C:\\Users\\user\\Desktop\\AI_entity_robot\\GPT-SoVITS-main\\output\\slicer_opt\\audio_1.mp3_0000000000_0000156480.wav"
     prompt_text = "到妻神理流，太刀术，接传神理灵华参少。"
     prompt_language = "中文"

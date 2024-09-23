@@ -25,7 +25,7 @@
 
 #若是不想訓練modles
 
-到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models/tree/main把Ayaka_test_models.zip下載下來
+到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models/tree/main 把Ayaka_test_models.zip下載下來
 
 解壓縮在../AI_entity_robot/GPT-SoVITS-main
 

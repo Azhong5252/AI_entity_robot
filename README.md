@@ -46,12 +46,10 @@ cmd /k
 ```
 conda create -n project_2024 python==3.9 --yes
 ```
-#
 #離開虛擬環境
 ```
 conda deactivate
 ```
-#
 #刪除這個專案的虛擬環境
 ```
 conda remove -n project_2024 --all --yes

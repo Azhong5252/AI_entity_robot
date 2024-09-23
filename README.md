@@ -1,5 +1,6 @@
 # AI_entity_robot
 根據生成式AI生成實體機器人所需的動作，並且可以訓練微調一個聲音克隆模型，讓機器人可以發出克隆的聲音的與我們對話。
+#
 請先安裝Anaconda https://www.anaconda.com/download
 
 #Anaconda有裝且路徑都有設定就可跳過這步

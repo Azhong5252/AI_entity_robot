@@ -72,6 +72,7 @@ conda deactivate
 conda remove -n project_2024 --all --yes
 ```
 #
+#
 第四步 下載\解壓 需要使用的模型到指定位置
 
 #先使用curl下載兩個models到指定位置在使用tar解壓到指定位置

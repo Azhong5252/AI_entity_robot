@@ -17,6 +17,7 @@ cd ../AI_entity_robot
 #
 #
 開始功能
+(小白可以直接跳至最後)
 #
 第一步開啟cmd
 (是否我們自己建Audio資料夾放進github上可以避免這些指令owob)
@@ -47,7 +48,7 @@ tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 ```
 #若不要自己訓練GPT-SoVITS模型而想用現成的話，可以等這步下載解壓完後，接著執行test_models.bat(需要較久時間下載和解壓縮)
 #
-第四步執行 啟動虛擬環境安裝套件
+第四步啟動虛擬環境且安裝套件
 ```
 conda activate project_2024
 conda install -y ffmpeg
@@ -59,11 +60,17 @@ pip install -r requirements.txt
 ```
 conda deactivate
 ```
-#要刪除這個虛擬環境的話 999刪除虛擬環境.bat
+#要刪除這個虛擬環境的話
+```
+conda remove -n project_2024 --all --yes
+```
 #
 第五步執行
 ```
 python.exe main.py
 ```
 #
+#
+請先安裝Anaconda和cuda後依照一鍵啟動包0~4即可完成本專案
 溫馨提示!當在terminal要執行.bat可以用tab，例如要執行 3啟動虛擬環境(未安裝套件).bat，可以打個 3啟動 然後按tab找到那個.bat檔
+#

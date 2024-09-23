@@ -52,7 +52,7 @@ conda create -n project_2024 python==3.9 --yes
 conda deactivate
 ```
 #
-#刪除虛擬環境
+#刪除這個專案的虛擬環境
 ```
 conda remove -n project_2024 --all --yes
 ```

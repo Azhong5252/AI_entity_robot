@@ -55,7 +55,22 @@ conda deactivate
 conda remove -n project_2024 --all --yes
 ```
 #
-第三步 下載\解壓 需要使用的模型到指定位置
+第三步啟動虛擬環境且安裝套件
+
+#啟動虛擬環境
+```
+conda activate project_2024
+```
+#安裝ffmpeg套件
+```
+conda install -y ffmpeg
+```
+#安裝所有套件
+```
+pip install -r requirements.txt
+```
+#
+第四步 下載\解壓 需要使用的模型到指定位置
 
 #先使用curl下載兩個models到指定位置在使用tar解壓到指定位置
 ```
@@ -63,13 +78,6 @@ curl -L -o GPT-SoVITS-main\pretrained_models.zip https://github.com/Azhong5252/A
 curl -L -o GPT-SoVITS-main\models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_ASR_model/models.zip
 tar -xf "GPT-SoVITS-main\pretrained_models.zip" -C "GPT-SoVITS-main\GPT_SoVITS"
 tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
-```
-#
-第四步啟動虛擬環境且安裝套件
-```
-conda activate project_2024
-conda install -y ffmpeg
-pip install -r requirements.txt
 ```
 #
 第五步執行

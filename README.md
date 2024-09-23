@@ -12,8 +12,8 @@
 專案克隆
 ```
 git clone https://github.com/Azhong5252/AI_entity_robot.git
+cd AI_entity_robot
 ```
-#cd ../AI_entity_robot
 #
 訓練GPT-SoVITS models
 

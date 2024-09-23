@@ -26,7 +26,13 @@ curl -L -o GPT-SoVITS-main\models.zip https://github.com/Azhong5252/AI_entity_ro
 tar -xf "GPT-SoVITS-main\pretrained_models.zip" -C "GPT-SoVITS-main\GPT_SoVITS"
 tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 ```
-2.
+2.train
+
+3.train
+
+4.train
+
+5.train
 
 #若是不想訓練modles
 

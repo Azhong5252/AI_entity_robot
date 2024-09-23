@@ -48,7 +48,8 @@ tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 ```
 cd /d %cd%
 cd /d "VITS-fast-fine-tuning-webui-v1.1"
-mkdir Audio && cd ..
+mkdir Audio
+cd ..
 cd /d "GPT-SoVITS-main"
 mkdir Audio
 cd ..

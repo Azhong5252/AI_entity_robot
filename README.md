@@ -38,7 +38,7 @@ tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 
 #若是不想訓練modles
 
-可以到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models/tree/main 
+可以到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models 
 
 把Ayaka_test_models.zip下載下來後，解壓縮在../AI_entity_robot/GPT-SoVITS-main資料夾裡
 

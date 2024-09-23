@@ -46,14 +46,6 @@ cmd /k
 ```
 conda create -n project_2024 python==3.9 --yes
 ```
-#離開虛擬環境
-```
-conda deactivate
-```
-#刪除這個專案的虛擬環境
-```
-conda remove -n project_2024 --all --yes
-```
 #
 第三步啟動虛擬環境且安裝套件
 
@@ -68,6 +60,15 @@ conda install -y ffmpeg
 #安裝所有套件
 ```
 pip install -r requirements.txt
+```
+#
+#需要離開虛擬環境的話
+```
+conda deactivate
+```
+#需要刪除這個專案的虛擬環境的話
+```
+conda remove -n project_2024 --all --yes
 ```
 #
 第四步 下載\解壓 需要使用的模型到指定位置

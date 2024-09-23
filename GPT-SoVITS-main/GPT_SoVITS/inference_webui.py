@@ -555,7 +555,7 @@ def sovits(gpt_text):
     GPT_dropdown = Get_GPT_dropdown()
     SoVITS_dropdown = Get_SoVITS_dropdown()
     inp_ref = Audio_path()
-    prompt_text = "到妻神理流，太刀术，接传神理灵华参少。"
+    prompt_text = "只要内容本身有趣，这些专家们可以帮忙往里面加料。"
     prompt_language = "中文"
     text = gpt_text
     text_language = "中文"

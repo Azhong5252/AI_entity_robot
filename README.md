@@ -50,7 +50,7 @@ cd /d %cd%
 cd /d "VITS-fast-fine-tuning-webui-v1.1"
 if not exist Audio mkdir Audio
 cd ..
-cd /d "%cd%\GPT-SoVITS-main"
+cd /d "GPT-SoVITS-main"
 if not exist Audio mkdir Audio
 cd ..
 ```

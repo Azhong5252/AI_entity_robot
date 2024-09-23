@@ -10,8 +10,10 @@
 #cuda有裝且路徑都有設定就可跳過這步
 #
 專案克隆
+```
 git clone https://github.com/Azhong5252/AI_entity_robot.git
 cd ../AI_entity_robot
+```
 #
 #
 開始功能

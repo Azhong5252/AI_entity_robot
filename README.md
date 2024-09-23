@@ -52,7 +52,7 @@ mkdir Audio
 cd ..
 cd /d "GPT-SoVITS-main"
 mkdir Audio
-cmd /k
+cd ..
 ```
 #
 第二步創建虛擬環境

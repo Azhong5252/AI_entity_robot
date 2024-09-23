@@ -29,12 +29,9 @@ git clone https://github.com/Azhong5252/AI_entity_robot.git
 cd ../AI_entity_robot
 ```
 #
-#
 開始功能
-(小白可以直接跳至最後)
 #
 第一步開啟cmd
-(是否我們自己建Audio資料夾放進github上可以避免這些指令owob)
 ```
 cd /d %cd%
 cd /d "VITS-fast-fine-tuning-webui-v1.1"
@@ -45,22 +42,20 @@ mkdir Audio(是否我們自己建資料夾放進github上)
 cmd /k
 ```
 #
-#
 第二步創建虛擬環境
 ```
 conda create -n project_2024 python==3.9 --yes
 ```
 #
-第三步自動下載且解壓模型
+第三步 下載\解壓 需要使用的模型到指定位置
 
-#會自動下載pretrained_models.zip和models.zip且會自動解壓縮，需要較久時間下載和解壓縮)
+#先使用curl下載兩個models到指定位置在使用tar解壓到指定位置
 ```
 curl -L -o GPT-SoVITS-main\pretrained_models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_pretrained_models/pretrained_models.zip
 curl -L -o GPT-SoVITS-main\models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_ASR_model/models.zip
 tar -xf "GPT-SoVITS-main\pretrained_models.zip" -C "GPT-SoVITS-main\GPT_SoVITS"
 tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 ```
-#若不要自己訓練GPT-SoVITS模型而想用現成的話，可以等這步下載解壓完後，接著執行test_models.bat(需要較久時間下載和解壓縮)
 #
 第四步啟動虛擬環境且安裝套件
 ```
@@ -68,13 +63,13 @@ conda activate project_2024
 conda install -y ffmpeg
 pip install -r requirements.txt
 ```
-#非第一次創建這個虛擬環境但要直接進入虛擬環境的話 3啟動虛擬環境.bat
-
+#
 #離開虛擬環境
 ```
 conda deactivate
 ```
-#要刪除這個虛擬環境的話
+#
+#刪除虛擬環境
 ```
 conda remove -n project_2024 --all --yes
 ```
@@ -83,7 +78,6 @@ conda remove -n project_2024 --all --yes
 ```
 python.exe main.py
 ```
-#
 #
 請先安裝Anaconda和cuda後依照一鍵啟動包0~4即可完成本專案
 溫馨提示!當在terminal要執行.bat可以用tab，例如要執行 3啟動虛擬環境(未安裝套件).bat，可以打個 3啟動 然後按tab找到那個.bat檔

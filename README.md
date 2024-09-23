@@ -44,7 +44,7 @@ cd /d "VITS-fast-fine-tuning-webui-v1.1"
 mkdir Audio
 cd ..
 cd /d "GPT-SoVITS-main"
-mkdir Audio(是否我們自己建資料夾放進github上)
+mkdir Audio
 cmd /k
 ```
 #

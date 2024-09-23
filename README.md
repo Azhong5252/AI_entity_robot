@@ -46,7 +46,12 @@ tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 #
 第一步開啟cmd
 ```
-cd /d %cd% && cd /d "VITS-fast-fine-tuning-webui-v1.1" && mkdir Audio && cd .. && cd /d "GPT-SoVITS-main" && mkdir Audio && cd ..
+cd /d %cd%
+cd /d "VITS-fast-fine-tuning-webui-v1.1"
+mkdir Audio && cd ..
+cd /d "GPT-SoVITS-main"
+mkdir Audio
+cd ..
 ```
 #
 第二步創建虛擬環境

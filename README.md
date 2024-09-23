@@ -17,23 +17,22 @@ cd ../AI_entity_robot
 #
 訓練GPT-SoVITS models
 
-1.
+1.下載\解壓 需要使用的模型到指定位置
 
+#先使用curl下載兩個models到指定位置在使用tar解壓到指定位置
+```
+curl -L -o GPT-SoVITS-main\pretrained_models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_pretrained_models/pretrained_models.zip
+curl -L -o GPT-SoVITS-main\models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_ASR_model/models.zip
+tar -xf "GPT-SoVITS-main\pretrained_models.zip" -C "GPT-SoVITS-main\GPT_SoVITS"
+tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
+```
 2.
-
-3.
-
-4.
-
-5.
-
-6.
 
 #若是不想訓練modles
 
-到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models/tree/main 把Ayaka_test_models.zip下載下來
+可以到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models/tree/main 
 
-解壓縮在../AI_entity_robot/GPT-SoVITS-main
+把Ayaka_test_models.zip下載下來後，解壓縮在../AI_entity_robot/GPT-SoVITS-main資料夾裡
 
 #
 開始功能
@@ -79,16 +78,6 @@ conda deactivate
 conda remove -n project_2024 --all --yes
 ```
 #
-#
-第四步 下載\解壓 需要使用的模型到指定位置
-
-#先使用curl下載兩個models到指定位置在使用tar解壓到指定位置
-```
-curl -L -o GPT-SoVITS-main\pretrained_models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_pretrained_models/pretrained_models.zip
-curl -L -o GPT-SoVITS-main\models.zip https://github.com/Azhong5252/AI_entity_robot/releases/download/GPT-SoVITS_ASR_model/models.zip
-tar -xf "GPT-SoVITS-main\pretrained_models.zip" -C "GPT-SoVITS-main\GPT_SoVITS"
-tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
-```
 #
 第五步執行
 ```

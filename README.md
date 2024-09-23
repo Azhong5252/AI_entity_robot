@@ -62,6 +62,7 @@ conda install -y ffmpeg
 pip install -r requirements.txt
 ```
 #
+#
 #需要離開虛擬環境的話
 ```
 conda deactivate

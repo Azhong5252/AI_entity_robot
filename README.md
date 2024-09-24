@@ -103,3 +103,9 @@ python.exe main.py
 請先安裝Anaconda和cuda後依照一鍵啟動包0~4即可完成本專案
 溫馨提示!當在terminal要執行.bat可以用tab，例如要執行 3啟動虛擬環境(未安裝套件).bat，可以打個 3啟動 然後按tab找到那個.bat檔
 #
+#
+參考文獻
+  特別感謝以下項目和貢獻者：
+  [VITS-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/LOCAL.md)
+  [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS?tab=readme-ov-file)
+#

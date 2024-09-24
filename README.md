@@ -15,7 +15,7 @@ git clone https://github.com/Azhong5252/AI_entity_robot.git && cd AI_entity_robo
 ```
 #
 訓練VITS-fast-fine-tuning models  
-[Local.md](https://github.com/Azhong5252/AI_entity_robot/blob/main/Local.md)  
+詳情參閱[Local.md](https://github.com/Azhong5252/AI_entity_robot/blob/main/Local.md)  
 #
 #
 訓練GPT-SoVITS models

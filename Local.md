@@ -17,24 +17,20 @@
   python setup.py build_ext --inplace
   cd ..
 ```
-4.(下載訓練輔助數據)
+4.下載訓練輔助數據
 ```
   mkdir pretrained_models
-```
   # download data for fine-tuning
-  ```
   wget https://huggingface.co/datasets/Plachta/sampled_audio4ft/resolve/main/sampled_audio4ft_v2.zip
   unzip sampled_audio4ft_v2.zip
-```
   # create necessary directories
-  ```
   mkdir video_data
   mkdir raw_audio
   mkdir denoised_audio
   mkdir custom_character_voice
   mkdir segmented_character_voice
 ```
-5.下載預訓練
+5.下載預訓練模型
   CJE: Trilingual (Chinese, Japanese, English)
   ```
   https://huggingface.co/spaces/Plachta/VITS-Umamusume-voice-synthesizer/resolve/main/pretrained_models/D_trilingual.pth 模型重新命名為D_0.pth

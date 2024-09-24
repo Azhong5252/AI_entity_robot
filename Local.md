@@ -1,5 +1,5 @@
 #VITS-fast-fine-tuing環境建設  
-0.到https://visualstudio.microsoft.com/zh-hant/downloads/ 下載Visual Studio 2022並勾選CMake & C/C++ compilers
+0.到https://visualstudio.microsoft.com/zh-hant/downloads/ 下載Visual Studio 2022並勾選CMake & C/C++ compilers  
 1.下載套件
 ```
   cd VITS-fast-fine-tuing

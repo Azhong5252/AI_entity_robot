@@ -10,7 +10,7 @@
   pip install imageio==2.4.1
   pip install moviepy
 ```
-3.建立單調對齊(訓練並要)
+3.建立序列對齊(訓練並要)
 ```
   cd /monotonic_align
   python setup.py build_ext --inplace

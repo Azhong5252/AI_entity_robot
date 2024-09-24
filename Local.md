@@ -59,12 +59,12 @@
     ```
     run unzip ./custom_character_voice/custom_character_voice.zip -d ./custom_character_voice/
     ```
-  長音頻
-    命名規則依照DATA.MD;
-    放在./raw_audio/目錄下
-  影片
-    命名規則依照DATA.MD;
-    放在./video_data/目錄下
+  長音頻  
+    命名規則依照DATA.MD;  
+    放在./raw_audio/目錄下  
+  影片  
+    命名規則依照DATA.MD;  
+    放在./video_data/目錄下  
 7.處理所有音頻資料
 ```
   python scripts/video2audio.py
@@ -75,8 +75,8 @@
 ```
   根據之前選擇的型號選擇{CJ, CJE, C}替代"{PRETRAINED_MODEL}"  
   確保您的 GPU 記憶體至少為12GB則使用--whisper_size。如果不是，請將參數更改medium or small.  
-8.處理所有文字資料
-  如果您選擇新增輔助數據，請執行
+8.處理所有文字資料  
+  如果您選擇新增輔助數據，請執行  
   ```
   python preprocess_v2.py --add_auxiliary_data True --languages "{PRETRAINED_MODEL}"
   ```
@@ -84,8 +84,8 @@
   ```
   python preprocess_v2.py --languages "{PRETRAINED_MODEL}，"替換"{PRETRAINED_MODEL}"為其中之一。{CJ, CJE, C}
   ```
-9.開始訓練
-  運行
+9.開始訓練  
+  運行  
   ```
   python finetune_speaker_v2.py -m ./OUTPUT_MODEL --max_epochs "{Maximum_epochs}" --drop_speaker_embed True
   ```
@@ -96,7 +96,7 @@
   ```
   在執行此操作之前，請確保您有 previousG_latest.pth和D_latest.pthunder./OUTPUT_MODEL/在目錄下。  
   若要查看訓練進度，請開啟新終端並cd進入專案根目錄，運行tensorboard --logdir=./OUTPUT_MODEL，然後localhost:6006使用 Web 瀏覽器存取。  
-10.訓練完成後，您可以透過執行以下命令來使用您的模型：
+10.訓練完成後，您可以透過執行以下命令來使用您的模型：  
   ```
   python VC_inference.py --model_dir ./OUTPUT_MODEL/G_latest.pth --share True
   ```

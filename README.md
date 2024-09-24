@@ -15,7 +15,7 @@ git clone https://github.com/Azhong5252/AI_entity_robot.git && cd AI_entity_robo
 ```
 #
 訓練VITS-fast-fine-tuning models
-Local.md
+<Local.md>
 #
 #
 訓練GPT-SoVITS models
@@ -104,8 +104,8 @@ python.exe main.py
 溫馨提示!當在terminal要執行.bat可以用tab，例如要執行 3啟動虛擬環境(未安裝套件).bat，可以打個 3啟動 然後按tab找到那個.bat檔
 #
 #
-參考文獻
-  特別感謝以下項目和貢獻者：
-  [VITS-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/LOCAL.md)
-  [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS?tab=readme-ov-file)
+參考文獻  
+  特別感謝以下項目和貢獻者：  
+  [VITS-fast-fine-tuning](https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/LOCAL.md)  
+  [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS?tab=readme-ov-file)  
 #

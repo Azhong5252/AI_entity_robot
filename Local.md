@@ -1,4 +1,4 @@
-#VITS-fast-fine-tuing環境建設
+#VITS-fast-fine-tuing環境建設  
 0.
 　到https://visualstudio.microsoft.com/zh-hant/downloads/ 下載Visual Studio 2022並勾選CMake & C/C++ compilers
 1.下載套件
@@ -54,12 +54,12 @@
   https://huggingface.co/datasets/Plachta/sampled_audio4ft/resolve/main/VITS-Chinese/G_0.pth 
   https://huggingface.co/datasets/Plachta/sampled_audio4ft/resolve/main/VITS-Chinese/config.json 右鍵另存新檔並重新命名為finetune_speaker.json
   ```
-  D_0.pth和G_0.pth放在pretrained_models目錄下
-  finetune_speaker.json放在configs目錄下
+  D_0.pth和G_0.pth放在pretrained_models目錄下  
+  finetune_speaker.json放在configs目錄下  
 6.將您的語音資料放在對應的目錄下，詳細的不同上傳選項請參閱DATA.MD(https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/DATA_EN.MD)
-  短音頻
-    命名規則依照DATA.MD as a single .zip file;
-    放在./custom_character_voice/目錄下;
+  短音頻  
+    命名規則依照DATA.MD as a single .zip file;  
+    放在./custom_character_voice/目錄下;  
     ```
     run unzip ./custom_character_voice/custom_character_voice.zip -d ./custom_character_voice/
     ```

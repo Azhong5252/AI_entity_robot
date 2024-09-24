@@ -52,7 +52,7 @@
   D_0.pth和G_0.pth放在pretrained_models目錄下  
   finetune_speaker.json放在configs目錄下  
 6.將您的語音資料放在對應的目錄下，詳細的不同上傳選項請參閱  
-  DATA.MD(https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/DATA_EN.MD)
+  [DATA.MD]([https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/DATA_EN.MD](https://github.com/Azhong5252/AI_entity_robot/blob/main/VITS-fast-fine-tuning-webui-v1.1/DATA.MD))
   
   短音頻  
     命名規則依照DATA.MD as a single .zip file;  

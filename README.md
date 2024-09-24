@@ -14,6 +14,10 @@
 git clone https://github.com/Azhong5252/AI_entity_robot.git && cd AI_entity_robot
 ```
 #
+訓練VITS-fast-fine-tuning models
+Local.md
+#
+#
 訓練GPT-SoVITS models
 
 1.下載\解壓 需要使用的模型到指定位置

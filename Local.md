@@ -53,18 +53,22 @@
   finetune_speaker.json放在configs目錄下  
 6.將您的語音資料放在對應的目錄下，詳細的不同上傳選項請參閱  
   DATA.MD(https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/DATA_EN.MD)
+  
   短音頻  
     命名規則依照DATA.MD as a single .zip file;  
     放在./custom_character_voice/目錄下;  
     ```
     run unzip ./custom_character_voice/custom_character_voice.zip -d ./custom_character_voice/
-    ```
+    ```  
+    
   長音頻  
     命名規則依照DATA.MD;  
     放在./raw_audio/目錄下  
+    
   影片  
     命名規則依照DATA.MD;  
     放在./video_data/目錄下  
+    
 7.處理所有音頻資料
 ```
   python scripts/video2audio.py

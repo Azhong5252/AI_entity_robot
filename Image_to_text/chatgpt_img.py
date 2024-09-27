@@ -6,6 +6,7 @@ import os
 api_key = ""
 
 def img_to_text():
+  global input_text
   folder_path = os.getcwd() + "\\image"
   def encode_image(image_path):
     with open(image_path, "rb") as image_file:
@@ -23,7 +24,7 @@ def img_to_text():
   image_path = get_latest_image(folder_path)
   # //////////////////////////////////////////////////////////////////////////////////////
   base64_image = encode_image(image_path)
-
+  # input_text = ""
   headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {api_key}"
@@ -37,7 +38,7 @@ def img_to_text():
         "content": [
           {
             "type": "text",
-            "text": "What’s in this image?"
+            "text":"根據" + input_text  + "利用20個字回覆答我，不要使用修飾詞而是使用白話文"
           },
           {
             "type": "image_url",
@@ -48,11 +49,13 @@ def img_to_text():
         ]
       }
     ],
-    "max_tokens": 300
+    "max_tokens": 100
   }
 
   response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
   assistant_response = response.json().get('choices', [{}])[0].get('message', {}).get('content', '')
   reply = translate_chinese.gpt(assistant_response)
-  # reply.replace("這張圖像似乎顯示了一個")
   return reply
+while True:
+  input_text = input("請回答我:")
+  print(img_to_text())

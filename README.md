@@ -77,9 +77,13 @@ conda activate project_2024
 ```
 conda install -y ffmpeg
 ```
-#安裝所有套件
+#安裝所需套件
 ```
 pip install -r requirements.txt
+```
+#安裝Pytorch
+```
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 ```
 #
 #

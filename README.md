@@ -43,7 +43,7 @@ tar -xf "GPT-SoVITS-main\models.zip" -C "GPT-SoVITS-main\tools\asr"
 
 可以到https://huggingface.co/Azhong5252/SoVITS_Ayaka_models 
 
-把Ayaka_test_models.zip下載下來後，解壓縮在../AI_entity_robot/GPT-SoVITS-main資料夾裡
+把(Ayaka_test_models.zip或Azhong_sovits_models.zip)下載下來後，解壓縮在../AI_entity_robot/GPT-SoVITS-main資料夾裡
 
 #
 開始功能

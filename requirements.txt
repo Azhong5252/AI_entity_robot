@@ -50,4 +50,4 @@ typer
 uvicorn 
 aiofiles==23.1.0
 tensorboard
-tensorflow-gpu
+tensorflow

@@ -98,10 +98,8 @@ conda remove -n project_2024 --all --yes
 #
 #
 第五步執行
-
-#執行前先確認..\AI_entity_robot\Chatgpt.py的apikey有key
 ```
-python.exe main.py
+python.exe window_Raspberry_Final.py
 ```
 #
 請先安裝Anaconda和cuda後依照一鍵啟動包0~4即可完成本專案
